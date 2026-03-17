@@ -1,0 +1,69 @@
+base_model: microsoft/phi-4
+model_type: AutoModelForCausalLM
+tokenizer_type: AutoTokenizer
+
+bf16: true
+fp16: false
+
+# 1. MOVED TO TOP LEVEL & INCREASED
+# Your max data is 5563, so we use 8192 to fit everything comfortably.
+sequence_len: 8192
+pad_to_sequence_len: true
+flash_attention: true
+
+system_prompt: |
+  You are a helpful legal assistant named IBPS. You will be given case details, outcome (bail granted or not granted), and statutes' descriptions and you have to provide reason for the outcome. Answer clearly and concisely.
+
+adapter: lora
+lora_r: 32
+lora_alpha: 64
+lora_dropout: 0.05
+lora_target_modules:
+  - q_proj
+  - k_proj
+  - v_proj
+  - o_proj
+  - gate_proj
+  - up_proj
+  - down_proj
+
+micro_batch_size: 1
+gradient_accumulation_steps: 2
+gradient_checkpointing: true
+
+fsdp:
+  - full_shard
+  - auto_wrap
+
+# 2. FIXED DEPRECATED KEYS
+# Axolotl now wants these without the "fsdp_" prefix inside the config block
+fsdp_config:
+  limit_all_gathers: true
+  sync_module_states: true
+  offload_params: false
+  use_orig_params: false
+
+optimizer: adamw_torch
+learning_rate: 5e-5
+lr_scheduler: cosine
+warmup_steps: 100
+
+num_epochs: 2
+max_steps: -1
+save_steps: 500
+save_total_limit: 3
+
+datasets:
+  - path: Data/train_ft_with_statutes.jsonl
+    type: chat_template
+    chat_template: tokenizer_default 
+    field_messages: messages 
+    message_property_mappings:
+      role: role
+      content: content
+
+# ---- Inference safety overrides ----
+inference:
+  world_size: 1
+  fsdp: []
+  ddp: false

@@ -1,0 +1,12 @@
+
+Input:
+Case Details and Court Judgement:
+{{full_case}}
+
+Court's reasoning behind judgement (Reference):
+{{Actual_reason}}
+
+Machine Generated reasoning behind judgement (To Be Evaluated):
+{{Generated_reason}}
+
+

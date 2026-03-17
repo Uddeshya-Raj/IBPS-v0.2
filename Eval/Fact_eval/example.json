@@ -1,0 +1,209 @@
+[
+    {
+        "resolved_text": "Of course, the offence attributed to the accused is of a grave and severe nature. But the question is whether on the very face of it, the allegations inspire confidence in the mind of the court. On a reading of the complaint, considerable doubt is created with regard to the veracity of the allegations. It will not be proper to go into the veracity of the allegations at this point of time except to say that it appears to be a case where subsequent refusal to marry has converted the first incident into a rape. Whatever that be, the accused has been in custody from 17.10.2013, and a good part of the investigation must have been completed by now. Therefore, continued custody of the accused appears to be unnecessary.",
+        "entities": [
+            "accused",
+            "offence",
+            "allegations",
+            "court",
+            "complaint",
+            "doubt",
+            "veracity",
+            "refusal to marry",
+            "rape",
+            "custody",
+            "investigation",
+            "17.10.2013"
+        ],
+        "triplets": [
+            [
+                "offence",
+                "attributed to",
+                "accused"
+            ],
+            [
+                "complaint",
+                "creates",
+                "doubt"
+            ],
+            [
+                "doubt",
+                "regarding",
+                "veracity"
+            ],
+            [
+                "refusal to marry",
+                "converted to",
+                "rape"
+            ],
+            [
+                "accused",
+                "in custody since",
+                "17.10.2013"
+            ],
+            [
+                "court",
+                "finds unnecessary",
+                "custody"
+            ]
+        ]
+    },
+    {
+        "resolved_text": "The accused, aged 27, seeks regular bail for charges under Sections 376 and 34 of the Indian Penal Code (IPC) related to allegations of rape. The accused has no prior criminal record and the accused is currently in custody for 15 days. The case involves accusations of sexual assault allegedly committed with the connivance of another accused. The prosecution argues the gravity of the offence and ongoing investigations, while the defense claims innocence and alleges ulterior motives behind the accusations. Section 34 IPC: this statute applies to acts done by several persons in furtherance of a common intention. Section 156 CrPC: this provision allows police officers to investigate cognizable offences without a magistrate's order. Section 376 IPC: this section pertains to the punishment for rape.",
+        "entities": [
+            "accused",
+            "bail",
+            "section 376 ipc",
+            "section 34 ipc",
+            "section 156 crpc",
+            "criminal record",
+            "custody",
+            "15 days",
+            "sexual assault",
+            "accuseds",
+            "prosecution",
+            "defense",
+            "ulterior motives",
+            "gravity of offence",
+            "investigation",
+            "common intention",
+            "police investigation",
+            "innocence"
+        ],
+        "triplets": [
+            [
+                "accused",
+                "seeks",
+                "bail"
+            ],
+            [
+                "accused",
+                "has no",
+                "criminal record"
+            ],
+            [
+                "accused",
+                "in custody",
+                "15 days"
+            ],
+            [
+                "sexual assault",
+                "with connivance",
+                "accuseds"
+            ],
+            [
+                "prosecution",
+                "argues",
+                "gravity of offence"
+            ],
+            [
+                "prosecution",
+                "claims",
+                "investigation"
+            ],
+            [
+                "defense",
+                "claims",
+                "innocence"
+            ],
+            [
+                "defense",
+                "alleges",
+                "ulterior motives"
+            ],
+            [
+                "section 34 ipc",
+                "applies to",
+                "common intention"
+            ],
+            [
+                "section 156 crpc",
+                "allows",
+                "police investigation"
+            ],
+            [
+                "section 376 ipc",
+                "pertains to",
+                "punishment for rape"
+            ]
+        ]
+    },
+    {
+        "resolved_text": "The accused, aged 27, seeks regular bail for charges under Sections 376 (rape) and 34 (common intention) of the Indian Penal Code (IPC), based on allegations of sexual assault. The accused has no prior criminal record and the accused is currently in custody for 15 days. The case involves a private complaint filed under Section 156(3) of the Criminal Procedure Code (CrPC). The accused claims innocence and alleges the accusations are false and motivated by ulterior motives. The prosecution argues against bail due to the gravity of the offence and ongoing investigations. Section 376 IPC: this section deals with rape, a serious offence. Section 34 IPC: this section pertains to acts done by several persons in furtherance of common intention. Section 156(3) CrPC: this allows for a magistrate to order an investigation based on a private complaint.",
+        "entities": [
+            "accused",
+            "bail",
+            "section 376 ipc",
+            "section 34 ipc",
+            "section 156 crpc",
+            "criminal record",
+            "custody",
+            "15 days",
+            "sexual assault",
+            "complaint",
+            "prosecution",
+            "defense",
+            "offence",
+            "investigation",
+            "ulterior motives",
+            "innocence"
+        ],
+        "triplets": [
+            [
+                "accused",
+                "seeks",
+                "bail"
+            ],
+            [
+                "accused",
+                "has no",
+                "criminal record"
+            ],
+            [
+                "accused",
+                "in custody",
+                "15 days"
+            ],
+            [
+                "complaint",
+                "filed under",
+                "section 156 crpc"
+            ],
+            [
+                "prosecution",
+                "argues",
+                "offence"
+            ],
+            [
+                "prosecution",
+                "claims",
+                "investigation"
+            ],
+            [
+                "accused",
+                "claims",
+                "innocence"
+            ],
+            [
+                "defense",
+                "alleges",
+                "ulterior motives"
+            ],
+            [
+                "section 376 ipc",
+                "pertains to",
+                "rape"
+            ],
+            [
+                "section 34 ipc",
+                "pertains to",
+                "common intention"
+            ],
+            [
+                "court",
+                "denies",
+                "bail"
+            ]
+        ]
+    }
+]
