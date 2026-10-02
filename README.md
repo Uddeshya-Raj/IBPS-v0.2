@@ -173,27 +173,13 @@ IBPS-v0.2
 
 The repository does **not** directly include the complete dataset because of its size.
 
-Instead, the dataset can be downloaded using the Google Drive link provided in
-
-```
-Data/Data.txt
-```
-
-The released dataset contains structured information extracted from Indian High Court bail judgments.
+Instead, the dataset can be accessed from https://huggingface.co/datasets/Killer-C0wboy/IBPS-v0.2-dataset
 
 ---
 
 ## 🤖 Pretrained Models
 
-Pretrained checkpoints are hosted separately on Hugging Face.
-
-The download link is available in
-
-```
-model/path.md
-```
-
-The repository therefore remains lightweight while still allowing complete reproduction of the experiments.
+Pretrained checkpoints are hosted separately on Hugging Face. https://huggingface.co/Killer-C0wboy/IBPS-v0.2
 
 ---
 
