@@ -1,3 +1,3 @@
-https://drive.google.com/drive/folders/1HuDkbuJ2-O_fl9cklKdCKaTri54H0uJU?usp=sharing
+https://huggingface.co/datasets/Killer-C0wboy/IBPS-v0.2-dataset
 
 Data is hosted at this link
